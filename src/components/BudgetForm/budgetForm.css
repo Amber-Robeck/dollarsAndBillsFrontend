@@ -1,0 +1,8 @@
+.budget-btn{
+    color: #DFA420;
+    text-decoration: none;
+}
+
+.budget-btn:hover{
+    background-color: #DF20BA;
+}

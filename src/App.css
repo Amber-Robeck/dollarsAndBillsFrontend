@@ -1,0 +1,127 @@
+/* .App{
+  background-color: black;
+} */
+#root{
+  height: 100vh;
+  background-color: black;
+  --blue: #205BDF;
+  --pink: #DF20BA;
+  --orange: #DFA420;
+  --green: #20DF45;
+}
+
+html{
+  background-color: black;
+}
+
+.log-form{
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+}
+
+.log-header{
+  color: var(--orange)
+}
+
+.log-text {
+  color: var(--pink);
+}
+
+#log-button{
+  background-color: var(--orange);
+  color: white
+}
+
+#log-button:hover{
+  color: var(--pink);
+  border: solid 2px var(--pink)
+}
+
+.log-goto{
+  color: var(--pink);
+  text-decoration: none;
+}
+.log-goto:hover{
+  color: var(--orange);
+}
+
+#email:hover,
+#pwd:hover,
+#username:hover,
+#pwd2:hover{
+  border:  var(--orange) 2px solid;
+  background-color: var(--pink);
+}
+
+.budget-header{
+  color: var(--pink);
+}
+
+.budget-text {
+  color: var(--orange);
+  display: flex;
+  justify-content: center;
+}
+
+#bigLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image1{
+  width: 400px;
+  height: 400px;
+}
+.card-body{
+  background-color: black;
+  color: var(--pink);
+  border: var(--orange) solid 5px;
+  border-radius: 5px;
+}
+
+.me-2{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#expense-items{
+  border: var(--pink) 2px solid;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.accordion-collapse{
+  background-color: black;
+}
+.accordion-body{
+  color: var(--orange);
+}
+
+.accordion{
+  background-color: black;
+}
+
+.accordion-button{
+  color: var(--orange);
+}
+
+.ms-1{
+  color: var(--pink);
+}
+
+.graph {
+  display: flex;
+  max-width: 50%;
+  max-height: 50%;
+  margin:auto;
+}
+
+.newColor{
+  color: var(--orange);
+}
+
+.errColor{
+  color: red
+}
