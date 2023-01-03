@@ -41,7 +41,7 @@ const authLink = setContext((_, { headers }) => {
 });
 
 const client = new ApolloClient({
-  uri: ApolloLink.from([errorLink, authLink.concat(httpLink)]),
+  link: ApolloLink.from([errorLink, authLink.concat(httpLink)]),
   cache: new InMemoryCache(),
 });
 
