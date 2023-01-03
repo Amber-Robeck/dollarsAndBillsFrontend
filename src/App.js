@@ -12,7 +12,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Budget from './pages/Budget';
 import Nav from './components/Nav';
-import { BudgetProvider } from './utils/BudgetContext';
+// import { BudgetProvider } from './utils/BudgetContext';
 import { onError } from 'apollo-link-error';
 import { ApolloLink } from 'apollo-link';
 import "./App.css";

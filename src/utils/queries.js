@@ -60,7 +60,9 @@ export const QUERY_EXPENSES = gql`
             name
             amount
             description
-            userId
+            userId{
+              username
+            }
         }
     }
 `;
