@@ -27,7 +27,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 });
 
 const httpLink = createHttpLink({
-  uri: 'https://dollarsandbillsbackend.onrender.com',
+  uri: 'https://dollarsandbillsbackend.onrender.com/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
@@ -41,7 +41,7 @@ const authLink = setContext((_, { headers }) => {
 });
 
 const client = new ApolloClient({
-  link: ApolloLink.from([errorLink, authLink.concat(httpLink)]),
+  uri: ApolloLink.from([errorLink, authLink.concat(httpLink)]),
   cache: new InMemoryCache(),
 });
 
