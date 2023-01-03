@@ -27,7 +27,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 });
 
 const httpLink = createHttpLink({
-  uri: 'https://dollarsandbillsbackend.onrender.com/graphql',
+  uri: 'https://dollarsandbillsbackend.onrender.com',
 });
 
 const authLink = setContext((_, { headers }) => {
