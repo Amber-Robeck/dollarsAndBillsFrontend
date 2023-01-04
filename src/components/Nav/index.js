@@ -1,8 +1,9 @@
 import React from "react";
 import Auth from "../../utils/auth";
 // import { Link } from "react-router-dom";
-import { Button, Navbar, Container, Link } from 'react-bootstrap'
+import { Button, Navbar, Container } from 'react-bootstrap'
 import './nav.css'
+import { Link } from 'react-router-dom';
 import DbLogo from '../../assets/dollars_and_bills_DT.png'
 const userName = Auth.getUsername()
 
