@@ -19,8 +19,10 @@ const Budget = () => {
             const { data } = await removeBudget({
                 variables: { budgetId },
             });
+            return data;
         } catch (err) {
             console.error(err);
+            console.error(error);
         }
         window.location.replace("/")
     }

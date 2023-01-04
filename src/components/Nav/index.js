@@ -1,6 +1,6 @@
 import React from "react";
 import Auth from "../../utils/auth";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Button, Navbar, Container } from 'react-bootstrap'
 import './nav.css'
 import DbLogo from '../../assets/dollars_and_bills_DT.png'
@@ -23,6 +23,7 @@ function Nav() {
         <Navbar >
           <Container>
             <img className="navImg"
+              alt="logo"
               src={DbLogo}
               width="80px"
               height="80px"
@@ -47,6 +48,7 @@ function Nav() {
           <Container>
             <img className="navImg"
               src={DbLogo}
+              alt="logo"
               width="80px"
               height="80px"
             />

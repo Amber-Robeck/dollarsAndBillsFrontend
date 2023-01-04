@@ -57,15 +57,15 @@ function App() {
               element={<Home />}
             />
             <Route
-              path="/login"
+              path="login"
               element={<Login />}
             />
             <Route
-              path="/signup"
+              path="signup"
               element={<Signup />}
             />
             <Route
-              path="/budget/:budgetId"
+              path="budget/:budgetId"
               element={< Budget />}
             />
             <Route
